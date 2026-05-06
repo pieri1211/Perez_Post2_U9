@@ -39,14 +39,6 @@
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-
-        <!-- H2 para pruebas con @DataJpaTest -->
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <scope>test</scope>
         </dependency>
 
         <!-- JUnit, Mockito, MockMvc y utilidades de prueba de Spring Boot -->
